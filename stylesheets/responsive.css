@@ -141,7 +141,12 @@
 	.product-fivecolumn .product .product-item {
 		width: 50%;
 	}
-	
+	}
+	.product-sixcolumnfull .product .product-item,
+	.product-fivecolumn .product .product-item {
+		width: 33.33%;
+	}
+
 	.product.style2.product-sixcolumnfull .product-item:nth-child(3),
 	.product-content.product-sixcolumnfull .product .product-item:nth-child(11),
 	.product-content.product-sixcolumnfull .product .product-item:nth-child(17),
