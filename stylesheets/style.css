@@ -1230,6 +1230,20 @@ h6 { font-size: 14px; line-height: 48px; font-weight: 400;}
 	     -o-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
 }
+	input[type="search"] {
+		-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+	}
+
+	input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+		-webkit-appearance: none;
+	}
+
+	button::-moz-focus-inner,
+	input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+		border: 0;
+		padding: 0;
+	}
+
 
 #mainnav ul.submenu:before {
     content: "";
