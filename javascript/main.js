@@ -476,6 +476,15 @@
             $(this).parent().find('.quantity-number').val(newVal);
         });
     };
+	// Header (narrower + mobile).
+
+		// Toggle.
+			$(
+				'<div id="headerToggle">' +
+					'<a href="#header" class="toggle"></a>' +
+				'</div>'
+			)
+				.appendTo($body);
 
     var flatTabs=function(){
         $('.flat-tabs').each(function(){
