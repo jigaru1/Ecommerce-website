@@ -328,6 +328,18 @@ input::-moz-placeholder {
 input:-ms-input-placeholder {
 	color: #b3b7c8;
 }
+#MainContainer h5 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0
+}
+#MainContainer p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 0 15px;
+}
 
 textarea::-webkit-input-placeholder,
 input::-webkit-input-placeholder {
